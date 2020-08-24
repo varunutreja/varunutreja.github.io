@@ -1,0 +1,50 @@
+{
+  "GitPush": {
+    "baseBranchOwner": "TestMD",
+    "repoName": "weirdo.en",
+"requestId": "utreja",
+    "createBranchIfNotExist": false,
+"commitMessage":"This is git push message. French & German !!",
+    "targetLocales": [
+      "fr_fr",
+"de_de"
+    ],
+    "merge": false,
+    "reset": false,
+    "branch": "testbranch1",
+    "baseBranch": "master",
+    "fileList": [
+      {
+        "targetAlfPath": "{localeScheme}/zstring/strings.txt",
+        "coreTargetPath": {
+          "defaultPath": "",
+          "customPaths": [
+
+            {
+              "localeList": [
+                "fr_fr"
+              ],
+              "path": "/Dummy Product/xml/AEM/strings_fr_xm.txt"
+            },
+ {
+              "localeList": [
+                "de_de"
+              ],
+              "path": "/Dummy Product/xml/AEM/strings_de.txt"
+            }
+          ]
+        }
+      }
+    ],
+    "push": true
+  }
+,
+    "GitPullRequest": {
+    "headOwner": "TestMD",
+    "repo": "weirdo.en",
+    "headBranch": "testbranch1",
+    "baseBranch": "master",
+    "baseOwner": "TestMD",
+    "message": "This is a mandatory message should be displayed for PR !!"
+  }
+}

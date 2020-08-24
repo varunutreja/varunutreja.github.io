@@ -1,0 +1,38 @@
+ {
+    "group_id": {
+        "string_id_1": {
+            "content" : {
+                "__value__": "Nested string",
+                "__desc__": "Nested string description"
+            },
+            "string_id_1.1": {
+                "content" : {
+                    "__value__": "Nested string 1.1",
+                    "__desc__": "Nested string description 1.1"
+                },
+                "string_id_1.1.1": {
+                    "__value__": "Nested string 1.1.1",
+                    "__desc__": "Nested string description 1.1.1"
+                }
+            },
+            "string_id_1.2": {
+                "content" : {
+                    "__value__": "Nested string 1.2",
+                    "__desc__": "Nested string description 1.2"
+                },
+                "string_id_1.2.1": {
+                    "content" : {
+                        "__value__": "Nested string 1.2.1",
+                        "__desc__": "Nested string description 1.2.1",
+                        "__translate__": false
+                    },
+                    "string_id_1.2.1.1": {
+                        "__value__": "Nested string 1.2.1.1",
+                        "__desc__": "Nested string description 1.2.1.1"
+                    }
+                }
+            },
+            "string_id_1.3": " group Nested string 1.3"
+        }
+    }
+}
